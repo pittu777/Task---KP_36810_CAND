@@ -60,14 +60,14 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden mt-4 space-y-4 px-4">
           <ul className="flex flex-col gap-3 text-gray-500 font-medium">
-            <li className="cursor-pointer">Home</li>
+            <li className="cursor-pointer self-center">Home</li>
             <li className="flex items-center gap-1 cursor-pointer self-center">
               Products <IoIosArrowDown />
             </li>
             <li className="flex items-center gap-1 cursor-pointer self-center">
               Resources <IoIosArrowDown />
             </li>
-            <li className="cursor-pointer">Pricing</li>
+            <li className="cursor-pointer self-center">Pricing</li>
           </ul>
           <div className="flex flex-col gap-3 mt-4">
             <button className="text-gray-500 font-semibold leading-[24px]">Login</button>
